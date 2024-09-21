@@ -1,0 +1,65 @@
+/* Benja Guzzetta */
+
+/* General styling for the body of the page. */
+body {
+    background-color: silver; /* Silver background */
+    color: rebeccapurple; /* Fuchsia text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the h1 headings. */
+h1 {
+    font-family: cursive;
+    font-size: xx-large;
+    color: rebeccapurple;
+}
+
+/* Styling for the h2 headings. */
+h2 {
+    font-size: large;
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Styling for the navigation links. */
+a {
+    color: firebrick;
+    font-size: medium;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+/* Styling for hover and active states for the links. */
+a:hover, a:active {
+    color: greenyellow; /* <-- Link turns this color when hovered over and clicked. */
+}
+
+/* Styling for my data table. */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Styling for the table headers. */
+th {
+    background-color: rebeccapurple;
+    color: silver;
+    padding: 10px;
+}
+
+/* Styling for table rows and cells. */
+td {
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+
+/* Styling for the footer. */
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rebeccapurple;
+    color: silver;
+    font-size: 0.9em;
+}

@@ -1,0 +1,80 @@
+/* Benja Guzzetta */
+
+/* General styling for the body of the page. */
+body {
+    background-color: lightgreen;
+    color: teal;
+    font-family: sans-serif;
+    overflow: hidden; /* This prevents scrollbars from appearing. */
+}
+
+/* The paragraph tag styling. */
+p {
+    text-align: justify;
+    margin-right: 200px;
+    font-size: 18px;
+    color: teal;
+    font-family: cursive;
+}
+
+/* The gif image styling. */
+#fry_gif {
+    position: absolute; /* <--- This allows the gif to be moved around the page. */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* <--- This starts the gif off centered on the webpage. */
+    border: 12px solid gold;
+    border-radius: 10px;
+    box-shadow: 0px 40px 40px teal;
+}
+
+/* The h1 heading tag styling. */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 14px;
+    border: 12px dotted gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styling for the h2 headings. */
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Styling for the buttons. */
+button {
+    display: block;
+    margin: 10px auto;
+    margin-right: 150px;
+    background-color: gold;
+    color: teal;
+    border: 2px solid teal;
+    border-radius: 5px;
+    cursor: crosshair;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Styling for the navigation links. */
+a {
+    color: gold;
+    font-size: larger;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+/* Styling for the hover and active states for the links. */
+a:hover, a:active {
+    color: fuchsia; /* <-- Explained this part twice now. */
+}
+/* The footer styling. */
+footer {
+    margin-top: 300px;
+    padding: 25px;
+    text-align: center;
+    border: 10px dotted gold;
+    font-family: serif;
+}
